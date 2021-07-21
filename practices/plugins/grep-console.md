@@ -1,0 +1,1 @@
+# [Grep Console](https://plugins.jetbrains.com/plugin/7125-grep-console) 

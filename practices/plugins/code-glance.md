@@ -1,0 +1,1 @@
+# [CodeGlance](https://plugins.jetbrains.com/plugin/7275-codeglance)
