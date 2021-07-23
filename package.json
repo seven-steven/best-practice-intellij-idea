@@ -12,5 +12,8 @@
     "@vuepress/plugin-last-updated": "^1.8.2",
     "@vuepress/plugin-nprogress": "^1.8.2",
     "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.1"
   }
 }

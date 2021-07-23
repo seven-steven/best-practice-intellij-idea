@@ -14,12 +14,6 @@ module.exports = {
       includeLevel: [2, 3]
     }
   },
-  plugins: [
-    '@vuepress/active-header-links',
-    '@vuepress/last-updated',
-    '@vuepress/back-to-top',
-    '@vuepress/nprogress'
-  ],
   themeConfig: {
     navbar: true,
     logo: '/assets/images/idea.svg',
@@ -44,7 +38,7 @@ module.exports = {
         path: '/practices/capacity/'
       },
       {
-        title: '插件集合',
+        title: '精选插件',
         path: '/practices/plugins/',
         // sidebarDepth: 4,
         children: [
@@ -62,6 +56,21 @@ module.exports = {
     repoLabel: '查看源码',
     editLinks: true,
     editLinkText: '帮助我们改善此页面！',
-    smoothScroll: true
+    smoothScroll: true,
+    plugins: [
+      '@vuepress/active-header-links',
+      [
+        '@vuepress/last-updated',
+        {
+          transformer: (timestamp, lang) => {
+            const moment = require('moment')
+            moment.locale(lang)
+            return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+          }
+        }
+      ],
+      '@vuepress/back-to-top',
+      '@vuepress/nprogress'
+    ],
   }
 }
