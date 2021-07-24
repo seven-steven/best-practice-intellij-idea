@@ -14,12 +14,27 @@ module.exports = {
       includeLevel: [2, 3]
     }
   },
+  plugins: [
+    '@vuepress/active-header-links',
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment')
+          moment.locale(lang)
+          return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+        }
+      }
+    ],
+    '@vuepress/back-to-top',
+    '@vuepress/nprogress'
+  ],
   themeConfig: {
     navbar: true,
     logo: '/assets/images/idea.svg',
     nav: [
       { text: 'Home', link: '/' },
-      { text: '配置', link: '/practices/config/' },
+      { text: '配置', link: '/practices/settings/' },
       { text: '能力', link: '/practices/capacity/' },
       { text: '插件', link: '/practices/plugins/' },
       { text: 'Blog', link: 'https://blog.diqigan.cn', rel: null }
@@ -27,24 +42,37 @@ module.exports = {
     sidebar: [
       {
         title: '基础配置',
-        path: '/practices/config/',
-        // sidebarDepth: 2,
+        path: '/practices/settings/',
+        sidebarDepth: 2,
+        collapsable: false,
         children: [
-          // '/practices/config/'
+          ['/practices/settings/appearance-and-behavior', '外观和行为']
         ]
       },
       {
         title: '原生能力',
-        path: '/practices/capacity/'
+        path: '/practices/capacity/',
+        collapsable: false,
+        children: [
+          '/practices/capacity/debug',
+          '/practices/capacity/http-request'
+        ]
       },
       {
         title: '精选插件',
         path: '/practices/plugins/',
-        // sidebarDepth: 4,
+        collapsable: false,
         children: [
-          // 'alibaba-java-coding-guidelines',
-          // 'maven-helper',
-          // 'rainbow-brackets'
+          '/practices/plugins/alibaba-java-coding-guidelines',
+          '/practices/plugins/key-promoter-x',
+          '/practices/plugins/presentation-assistant',
+          '/practices/plugins/maven-helper',
+          '/practices/plugins/lombok',
+          '/practices/plugins/rainbow-brackets',
+          '/practices/plugins/code-glance',
+          '/practices/plugins/git-commit-template',
+          '/practices/plugins/grep-console',
+          '/practices/plugins/alibaba-cloud-tookit',
         ]
       }
     ],
@@ -57,20 +85,6 @@ module.exports = {
     editLinks: true,
     editLinkText: '帮助我们改善此页面！',
     smoothScroll: true,
-    plugins: [
-      '@vuepress/active-header-links',
-      [
-        '@vuepress/last-updated',
-        {
-          transformer: (timestamp, lang) => {
-            const moment = require('moment')
-            moment.locale(lang)
-            return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
-          }
-        }
-      ],
-      '@vuepress/back-to-top',
-      '@vuepress/nprogress'
-    ],
+    darkMode: true
   }
 }
