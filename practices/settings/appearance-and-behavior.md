@@ -66,7 +66,19 @@ Editor Tabs 可以对 IDEA 编辑器的 tab 栏进行配置。
 
 ![idea-settings-editor-font](https://rmt.ladydaily.com/fetch/seven/storage/image-20210725185806372.png)
 
+### Code Style
 
+Code Style 面板可以对代码风格进行相应的配置：
+
+- 建议将 ”Line separator" 设置为 “Unix and macOs (\n)”。
+
+  因为 Windows 中的 `\r` 可能会在 Unix 中引发一些诡异的问题。
+
+  *这里只是建议，此项设置还是要以团队约定为准，不然版本i控制工具可能会因为一个换行符而沦陷。*
+
+  参考：[回车和换行](https://www.ruanyifeng.com/blog/2006/04/post_213.html) | [该死的 ^M](https://blog.khotyn.com/blog/2014/11/15/damn-the-carriage-return-character/) 
+
+![idea-settings-editor-code-style](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726011600081.png)
 
 
 
