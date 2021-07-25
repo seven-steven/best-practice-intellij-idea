@@ -80,6 +80,87 @@ Code Style 面板可以对代码风格进行相应的配置：
 
 ![idea-settings-editor-code-style](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726011600081.png)
 
+#### Java
+
+这里可以对 Java 的代码风格进行配置。
+
+- 建议对 “Tabs and Indents" 进行如下设置：
+  - 取消勾选 ”Use tab character“，取消之后，IDEA 会将所有的代码缩进替换为**空格**符号进行填充；
+  - 将 ”Tab size", "Indent", "Continuation indent" 设置为自己喜欢的大小；
+
+![idea-settings-editor-code-style-java](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726015709859.png)
+
+### File and Code Templates
+
+#### Files
+
+这里可以对文件和代码模板进行配置，其中：
+
+"Description" 栏罗列了 IDEA 预置的变量，可以自行选择组合使用。
+
+![image-20210726021915032](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726021915032.png)
+
+- Class
+
+  Class 可以对 Java 的类模板进行配置：
+
+  在模板输入框填入以下内容：
+
+  ```java
+  #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+  #parse("File Header.java")
+  
+  /**
+   * ${NAME}
+   *
+   * @author ${USER}
+   * @date ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
+   */
+  public class ${NAME} {
+  }
+  ```
+
+  ![idea-settings-editor-file-and-code-templates-class](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726020615304.png)
+
+  之后新建的 Java Class 文件会自动填充携带有 `@author` 和 `@data` 的 Java Doc 注释：
+
+  ![new-interface-with-java-doc](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726021308075.png)
+
+- Interface
+
+  Interface 配置页可以对 Java 的接口模板进行配置。
+
+  在模板输入框填入以下内容：
+
+  ```java
+  #if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+  #parse("File Header.java")
+  /**
+   * ${NAME}
+   *
+   * @author ${USER}
+   * @date ${YEAR}-${MONTH}-${DAY} ${HOUR}:${MINUTE}
+   */
+  public interface ${NAME} {
+  }
+  
+  ```
+
+  ![idea-settings-editor-file-and-code-templates-interface](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726021751142.png)
+
+  之后新建的 Java Interface 文件会自动填充携带有 `@author` 和 `@data` 的 Java Doc 注释：![new-java-class-with-java-doc](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726021142323.png)
+
+### File Encodings
+
+这里可以对文件编码进行设置。
+
+- 建议将所有的文件编码统一设置为 "UTF-8"；
+- 将 “BOM for new UTF-8 files" 下的 ”Create UTF-8 files" 选项设置为 “with NO BOM"‘；
+
+![idea-settings-editor-file-encodings](https://rmt.ladydaily.com/fetch/seven/storage/image-20210726022423595.png)
+
+### Live Templates
+
 
 
 ## Plugins
