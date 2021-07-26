@@ -161,7 +161,103 @@ Code Style 面板可以对代码风格进行相应的配置：
 
 ### Live Templates
 
+Live Templates 设置可以让我们在写代码的时候快速生成代码片段，具体操作如下：
 
+1. 新建模板组：
+   1. 点击 Live Templates 面板右方的 `+` 号并选择 “Template Group" ；![idea-settings-eidtor-live-templates-new-group](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727005953308.png)
+   2. 在弹出的输入框中输入模板组名称，点击 ”OK” 确认；![idea-settings-editor-live-templates-new-group-name](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727010059073.png)
+2. 新建方法注释模板
+   1. 在 Live Templates 面板选择自己刚刚新建的模板组；
+   2. 点击面板右侧的 `+` 号并选择 “Live Template" 新建模板；![idea-settings-editor-live-templates-new-template](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727010207093.png)
+   3. 填写方法模板信息：
+      - 在 ”Abbreviation" 输入框写入 `m`，这里是模板的简写，也可以叫做触发模板的关键字；
+      
+      - 在 “Description" 输入框写入 `方法注释`，这里写入的是模板描述，方便我们自己确认模板功能；
+      
+      - 在 ”Template text" 文本框写入以下模板：
+      
+        ```text
+        **
+         * $description$
+          * $params$ $returns$
+          * @author $user$
+          * @date $date$ $time$
+          */ 
+        ```
+      
+        可以看到，我们在模板中定义了许多变量。![idea-settings-editor-live-templates-new-template](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727020621364.png)
+      
+      - 点击 “Edit variables" 并填写变量表达式：
+      
+        ![idea-settings-editor-live-templates-edit-variables](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727021533648.png)
+      
+        - 在 ”params" 后的 “Expression" 输入框填入以下内容并勾选 ”Skip if defined“ 复选框：
+      
+            ```groovy
+            groovyScript(
+                "def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); 
+                    def result='';
+                    for(i = 0; i < params.size(); i++) {
+                        result += '\\n * @param ' + params[i];
+                    }; 
+                    return result == '' ? '' : result", 
+                methodParameters()
+            )
+            ```
+            
+            这段 groovy 脚本的作用是生成参数注释。
+            
+            **勾选 ”Skip if defined“ 复选框的作用是如果表达式已经为对应变量生成了值，那么就跳过手动输入步骤。**
+            
+        - 在 ”returns" 后的 “Expression" 输入框填入以下内容并勾选 ”Skip if defined“ 复选框：
+        
+            ```groovy
+            groovyScript(
+            	"def returnType = \"${_1}\"; 
+            		return returnType == 'void' ? '' : '\\n* @return ' + returnType + ''", 
+            	methodReturnType()
+            )
+            ```
+        
+            这段 groovy 脚本的作用是生成i返回值注释。
+        
+        - 在 ”user" 后的 “Expression" 输入框填入 `user()` 并勾选 ”Skip if defined“ 复选框；
+        
+            这里的 `user()` 是 IDEA 内置的方法，取当前操作系统登录用户的账号。此处也可以为固定字符串，取值为自己想要展示在方法注释中的名字。
+        
+        - 在 ”date" 后的 “Expression" 输入框填入 `date("yyyy-MM-dd")` 并勾选 ”Skip if defined“ 复选框；
+        
+        - 在 ”time" 后的 “Expression" 输入框填入 `time("HH:mm:ss")` 并勾选 ”Skip if defined“ 复选框；
+        
+        - 点击 ”OK“ 确认变量设置；
+        
+      - 配置可选项：
+      
+        ![idea-settings-editor-live-templates-options](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727022726705.png)
+      
+        - 把页面上方 ”By default expand with" 和页面右下角 “Options" 栏中的 ”Expand with" 设置为 “Tab";
+      
+          Live Template 的触发方式为 关键词 ”Abbreviation" + "Expand with"。
+      
+          按照我们上面的设置，如果想插入方法注释，只需要在方法上面一行输入 `m` 然后下 `Tab` 键，IDEA 就会把我们设置好的 “Template text" 插入到代码中。
+      
+        - 勾选页面右下角的 ”Reformat according to style"， IDEA 会在我们插入代码模板后自动根据当前设置的代码风格将其格式化；
+      
+        - 勾选页面右下角的 “Shorten FQ names”，IDEA 会自动截断完整标识符并导入对应语句；
+      
+      - 配置适用范围：
+      
+        点击页面左下角的 “Define" / "Change" 并在弹出面板中选择 ”Java"，表示此模板只会在 Java 文件中生效。
+      
+        ![idea-settings-editor-live-templates-applicable](https://rmt.ladydaily.com/fetch/seven/storage/image-20210727025436002.png)
+      
+      - 至此，配置完成。
+      
+        看下效果：
+      
+        ![idea-settings-editor-live-template-method-show](https://rmt.ladydaily.com/fetch/seven/storage/idea-live-template-for-method.gif)
+      
+        *这里之所以在关键字 `m` 前加了斜线 `/` 是因为我在模板文字中没有写注释的斜线 `/`。添加 `/` 之后，注释才能完整。* 
 
 ## Plugins
 
