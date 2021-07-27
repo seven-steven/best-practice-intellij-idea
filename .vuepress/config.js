@@ -54,7 +54,8 @@ module.exports = {
         children: [
           '/practices/settings/appearance-and-behavior',
           '/practices/settings/keymap',
-          '/practices/settings/editor'
+          '/practices/settings/editor',
+          '/practices/settings/version-control'
         ]
       },
       {
