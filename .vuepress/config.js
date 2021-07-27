@@ -27,7 +27,13 @@ module.exports = {
       }
     ],
     '@vuepress/back-to-top',
-    '@vuepress/nprogress'
+    '@vuepress/nprogress',
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'G-BK0FKWM9WZ'
+      }
+    ]
   ],
   themeConfig: {
     navbar: true,
