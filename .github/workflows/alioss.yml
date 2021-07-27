@@ -1,0 +1,47 @@
+name: ali oss deploy
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: checkout source code
+      uses: actions/checkout@v2
+      with: 
+        submodules: recursive
+
+    - name: install nodejs
+      users: actions/setup-node@v2.1.2
+      with:
+        node-version: "12.x"
+
+    - name: Cache Node Dependencies, can be delete
+      id: cache
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{runner.OS}}-npm-caches-${{ hashFiles('package-lock.json') }}          
+
+    - name: build vuepress
+      run: |
+        npm install --global yarn
+        yarn
+        yarn build
+
+    #使用阿里云的 ossutil 工具
+    - uses: manyuanrong/setup-ossutil@v2.0
+      with:
+        #这里是你的 bucket 的 endpoint，根据你选择的区域不同会不一样，在 Bucket 页面查看即可
+        endpoint: "oss-cn-guangzhou.aliyuncs.com"
+        #这里填写 Key
+        access-key-id: ${{ secrets.ALI_OSS_ACCESS_KEY_ID }}
+        #这里填写Secret
+        access-key-secret: ${{ secrets.ALI_OSS_ACCESS_KEY_SECRET }}
+        #这个命令就是把生成的 public 文件夹的内容，传到 oss 的 Bucket 中，选择 rf 的参数直接覆盖文件，把 ${bucket_name} 替换为你的 bucket 名字
+    - run: ossutil cp -rf dist oss://cn-diqigan-best-idea/
