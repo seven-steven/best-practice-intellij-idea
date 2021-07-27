@@ -43,10 +43,12 @@ module.exports = {
       {
         title: '基础配置',
         path: '/practices/settings/',
-        sidebarDepth: 2,
+        sidebarDepth: 1,
         collapsable: false,
         children: [
-          ['/practices/settings/appearance-and-behavior', '外观和行为']
+          '/practices/settings/appearance-and-behavior',
+          '/practices/settings/keymap',
+          '/practices/settings/editor'
         ]
       },
       {
