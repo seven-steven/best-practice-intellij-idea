@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Intellij IDEA 最佳实践',
-  description: 'Intellij IDEA 最佳实践, best-practice-intellij-idea',
+  description: 'Intellij IDEA 最佳实践, best-practice-intellij-idea, Intellij IDEA 教程, Intellij IDEA 优化',
   head: [
     ['link', { rel: 'icon', href: '/assets/images/favicon.png' }]
   ],
@@ -55,7 +55,9 @@ module.exports = {
           '/practices/settings/appearance-and-behavior',
           '/practices/settings/keymap',
           '/practices/settings/editor',
-          '/practices/settings/version-control'
+          '/practices/settings/version-control',
+          '/practices/settings/build-execution-deployment',
+          '/practices/settings/tools'
         ]
       },
       {
