@@ -55,6 +55,7 @@ module.exports = {
           '/practices/settings/appearance-and-behavior',
           '/practices/settings/keymap',
           '/practices/settings/editor',
+          '/practices/settings/plugins',
           '/practices/settings/version-control',
           '/practices/settings/build-execution-deployment',
           '/practices/settings/tools'
