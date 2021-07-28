@@ -66,7 +66,8 @@ module.exports = {
         collapsable: false,
         children: [
           '/practices/capacity/debug',
-          '/practices/capacity/http-request'
+          '/practices/capacity/http-request',
+          '/practices/capacity/data-grip'
         ]
       },
       {
