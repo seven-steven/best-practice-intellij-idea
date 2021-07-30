@@ -62,16 +62,16 @@ module.exports = {
           '/practices/settings/tools'
         ]
       },
-      // {
-      //   title: '原生能力',
-      //   path: '/practices/capacity/',
-      //   collapsable: false,
-      //   children: [
-      //     '/practices/capacity/debug',
-      //     '/practices/capacity/http-request',
-      //     '/practices/capacity/data-grip'
-      //   ]
-      // },
+      {
+        title: '原生能力',
+        path: '/practices/capacity/',
+        collapsable: false,
+        children: [
+          // '/practices/capacity/debug',
+          // '/practices/capacity/http-request',
+          // '/practices/capacity/data-grip'
+        ]
+      },
       {
         title: '精选插件',
         path: '/practices/plugins/',
@@ -84,11 +84,11 @@ module.exports = {
           // '/practices/plugins/presentation-assistant',
           '/practices/plugins/maven-helper',
           '/practices/plugins/rainbow-brackets',
-          // '/practices/plugins/code-glance',
           // '/practices/plugins/git-commit-template',
           '/practices/plugins/grep-console',
           // '/practices/plugins/alibaba-cloud-tookit',
           // '/practices/plugins/acejump',
+          '/practices/plugins/code-glance',
         ]
       }
     ],
