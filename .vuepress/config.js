@@ -83,7 +83,7 @@ module.exports = {
           // '/practices/plugins/key-promoter-x',
           // '/practices/plugins/presentation-assistant',
           '/practices/plugins/maven-helper',
-          // '/practices/plugins/rainbow-brackets',
+          '/practices/plugins/rainbow-brackets',
           // '/practices/plugins/code-glance',
           // '/practices/plugins/git-commit-template',
           '/practices/plugins/grep-console',
