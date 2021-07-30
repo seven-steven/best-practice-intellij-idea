@@ -87,6 +87,7 @@ module.exports = {
           '/practices/plugins/git-commit-template',
           '/practices/plugins/grep-console',
           '/practices/plugins/alibaba-cloud-tookit',
+          '/practices/plugins/acejump',
         ]
       }
     ],

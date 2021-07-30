@@ -7,6 +7,7 @@ actionText: 演武场 →
 actionLink: /practices/
 features:
   - title: 基础配置
+    link: /practices/settings/
     details: 神枪百炼，细琢精雕
   - title: 原生能力
     details: 璞玉浑金，秀外慧中
