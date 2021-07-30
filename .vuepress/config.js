@@ -88,6 +88,7 @@ module.exports = {
           '/practices/plugins/grep-console',
           // '/practices/plugins/alibaba-cloud-tookit',
           // '/practices/plugins/acejump',
+          '/practices/plugins/translation',
           '/practices/plugins/code-glance',
         ]
       }
