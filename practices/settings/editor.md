@@ -172,6 +172,10 @@ Live Templates 设置可以让我们在写代码的时候快速生成代码片�
                 "def params=\"${_1}\".replaceAll('[\\\\[|\\\\]|\\\\s]', '').split(',').toList(); 
                     def result='';
                     for(i = 0; i < params.size(); i++) {
+                        if (params[i] == '') {
+                            continue;
+                        };
+
                         result += '\\n * @param ' + params[i];
                     }; 
                     return result == '' ? '' : result", 
@@ -187,9 +191,9 @@ Live Templates 设置可以让我们在写代码的时候快速生成代码片�
         
             ```groovy
             groovyScript(
-            	"def returnType = \"${_1}\"; 
-            		return returnType == 'void' ? '' : '\\n* @return ' + returnType + ''", 
-            	methodReturnType()
+              "def returnType = \"${_1}\"; 
+                return returnType == 'void' ? '' : '\\n* @return ' + returnType + ''", 
+              methodReturnType()
             )
             ```
         

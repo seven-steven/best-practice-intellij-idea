@@ -2,7 +2,8 @@ module.exports = {
   title: 'Intellij IDEA 最佳实践',
   description: 'Intellij IDEA 最佳实践, best-practice-intellij-idea, Intellij IDEA 教程, Intellij IDEA 优化',
   head: [
-    ['link', { rel: 'icon', href: '/assets/images/favicon.png' }]
+    ['link', { rel: 'icon', href: '/assets/images/favicon.png' }],
+    ['meta', { name: 'yandex-verification', content: '6643f1fba5343856' }]
   ],
   host: '0.0.0.0',
   port: 8080,
