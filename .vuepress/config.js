@@ -78,18 +78,35 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 0,
         children: [
-          '/practices/plugins/lombok',
-          // '/practices/plugins/alibaba-java-coding-guidelines',
+          {
+            title: '代码质量',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              '/practices/plugins/alibaba-java-coding-guidelines',
+              // '/practices/plugins/sonar-lint',
+              // '/practices/plugins/find-bugs',
+            ]
+          },
+          {
+            title: '功能增强',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              '/practices/plugins/maven-helper',
+              '/practices/plugins/rainbow-brackets',
+              '/practices/plugins/grep-console',
+              '/practices/plugins/lombok',
+              '/practices/plugins/translation',
+              '/practices/plugins/code-glance',
+            ]
+          },
+
           // '/practices/plugins/key-promoter-x',
           // '/practices/plugins/presentation-assistant',
-          '/practices/plugins/maven-helper',
-          '/practices/plugins/rainbow-brackets',
           // '/practices/plugins/git-commit-template',
-          '/practices/plugins/grep-console',
           // '/practices/plugins/alibaba-cloud-tookit',
           // '/practices/plugins/acejump',
-          '/practices/plugins/translation',
-          '/practices/plugins/code-glance',
         ]
       }
     ],
