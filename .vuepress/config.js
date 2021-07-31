@@ -95,17 +95,19 @@ module.exports = {
             initialOpenGroupIndex: 0,
             children: [
               '/practices/plugins/maven-helper',
-              '/practices/plugins/rainbow-brackets',
-              '/practices/plugins/grep-console',
               '/practices/plugins/lombok',
+              '/practices/plugins/rainbow-brackets',
+
+              '/practices/plugins/key-promoter-x',
+              '/practices/plugins/presentation-assistant',
+              
+              '/practices/plugins/grep-console',
               '/practices/plugins/translation',
               '/practices/plugins/sequence-diagram',
               '/practices/plugins/code-glance',
             ]
           },
 
-          // '/practices/plugins/key-promoter-x',
-          // '/practices/plugins/presentation-assistant',
           // '/practices/plugins/git-commit-template',
           // '/practices/plugins/alibaba-cloud-tookit',
           // '/practices/plugins/acejump',
