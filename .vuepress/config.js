@@ -68,7 +68,7 @@ module.exports = {
         collapsable: false,
         children: [
           // '/practices/capacity/debug',
-          // '/practices/capacity/http-request',
+          '/practices/capacity/http-request',
           // '/practices/capacity/data-grip'
         ]
       },
@@ -78,46 +78,28 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 0,
         children: [
-          {
-            title: '代码质量',
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-              '/practices/plugins/alibaba-java-coding-guidelines',
-              '/practices/plugins/sonar-lint',
-              // '/practices/plugins/find-bugs',
-            ]
-          },
-          {
-            title: '功能增强',
-            collapsable: false,
-            sidebarDepth: 0,
-            initialOpenGroupIndex: 0,
-            children: [
-              '/practices/plugins/maven-helper',
-              '/practices/plugins/lombok',
-              '/practices/plugins/rainbow-brackets',
-              '/practices/plugins/acejump',
-              
-              '/practices/plugins/key-promoter-x',
-              '/practices/plugins/presentation-assistant',
-              
-              '/practices/plugins/grep-console',
-              '/practices/plugins/translation',
-              '/practices/plugins/sequence-diagram',
-              '/practices/plugins/code-glance',
-              
-              '/practices/plugins/idea-mind-map',
-              '/practices/plugins/git-commit-template',
+          '/practices/plugins/lombok',
 
-              '/practices/plugins/alibaba-cloud-tookit',
-              '/practices/plugins/mybatisx',
-              '/practices/plugins/mybatis-log-plugin',
+          '/practices/plugins/sonar-lint',
+          '/practices/plugins/alibaba-java-coding-guidelines',
+          '/practices/plugins/alibaba-cloud-tookit',
 
-              // '/practices/plugins/mybatis-code-helper-pro',
-            ]
-          },
+          '/practices/plugins/key-promoter-x',
+          '/practices/plugins/presentation-assistant',
 
+          '/practices/plugins/rainbow-brackets',
+          '/practices/plugins/acejump',
+          '/practices/plugins/grep-console',
+          '/practices/plugins/translation',
+          '/practices/plugins/sequence-diagram',
+          '/practices/plugins/code-glance',
+
+          '/practices/plugins/maven-helper',
+          '/practices/plugins/mybatisx',
+          '/practices/plugins/mybatis-log-plugin',
+          '/practices/plugins/git-commit-template',
+
+          '/practices/plugins/idea-mind-map',
         ]
       }
     ],
