@@ -3,7 +3,7 @@ home: true
 heroImage: /assets/images/idea.svg
 heroText: Intellij IDEA 最佳实践
 tagline: 工欲善其事，必先利其器
-actionText: 演武场 →
+actionText: 探索秘境 →
 actionLink: /practices/
 features:
   - title: 基础配置
