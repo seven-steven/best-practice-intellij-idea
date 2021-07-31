@@ -111,6 +111,8 @@ module.exports = {
               '/practices/plugins/git-commit-template',
 
               '/practices/plugins/alibaba-cloud-tookit',
+              '/practices/plugins/mybatisx',
+
               // '/practices/plugins/mybatis-code-helper-pro',
             ]
           },
