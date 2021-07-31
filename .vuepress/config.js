@@ -112,6 +112,7 @@ module.exports = {
 
               '/practices/plugins/alibaba-cloud-tookit',
               '/practices/plugins/mybatisx',
+              '/practices/plugins/mybatis-log-plugin',
 
               // '/practices/plugins/mybatis-code-helper-pro',
             ]
