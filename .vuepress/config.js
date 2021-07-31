@@ -92,12 +92,14 @@ module.exports = {
             title: '功能增强',
             collapsable: false,
             sidebarDepth: 0,
+            initialOpenGroupIndex: 0,
             children: [
               '/practices/plugins/maven-helper',
               '/practices/plugins/rainbow-brackets',
               '/practices/plugins/grep-console',
               '/practices/plugins/lombok',
               '/practices/plugins/translation',
+              '/practices/plugins/sequence-diagram',
               '/practices/plugins/code-glance',
             ]
           },
