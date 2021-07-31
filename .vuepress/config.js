@@ -97,7 +97,8 @@ module.exports = {
               '/practices/plugins/maven-helper',
               '/practices/plugins/lombok',
               '/practices/plugins/rainbow-brackets',
-
+              '/practices/plugins/acejump',
+              
               '/practices/plugins/key-promoter-x',
               '/practices/plugins/presentation-assistant',
               
@@ -108,11 +109,12 @@ module.exports = {
               
               '/practices/plugins/idea-mind-map',
               '/practices/plugins/git-commit-template',
+
+              // '/practices/plugins/mybatis-code-helper-pro',
             ]
           },
 
           // '/practices/plugins/alibaba-cloud-tookit',
-          // '/practices/plugins/acejump',
         ]
       }
     ],
