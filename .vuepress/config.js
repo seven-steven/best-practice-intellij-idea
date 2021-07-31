@@ -110,11 +110,11 @@ module.exports = {
               '/practices/plugins/idea-mind-map',
               '/practices/plugins/git-commit-template',
 
+              '/practices/plugins/alibaba-cloud-tookit',
               // '/practices/plugins/mybatis-code-helper-pro',
             ]
           },
 
-          // '/practices/plugins/alibaba-cloud-tookit',
         ]
       }
     ],
