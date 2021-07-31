@@ -107,10 +107,10 @@ module.exports = {
               '/practices/plugins/code-glance',
               
               '/practices/plugins/idea-mind-map',
+              '/practices/plugins/git-commit-template',
             ]
           },
 
-          // '/practices/plugins/git-commit-template',
           // '/practices/plugins/alibaba-cloud-tookit',
           // '/practices/plugins/acejump',
         ]
