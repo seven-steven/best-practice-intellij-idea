@@ -4,6 +4,8 @@
 
 *插件有实时检测和主动检测两种模式，如果该插件导致 IDEA 卡顿，可以关闭实时检测功能，在必要时手动检测修复即可。*
 
+*Alibaba Java Coding Guidelines 更侧重代码规范检查。*
+
 ![idea-plugin-alibaba-java-coding-guidelines](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731135811259.png)
 
 ## 相关资料

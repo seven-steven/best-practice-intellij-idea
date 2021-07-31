@@ -81,10 +81,10 @@ module.exports = {
           {
             title: '代码质量',
             collapsable: false,
-            sidebarDepth: 1,
+            sidebarDepth: 0,
             children: [
               '/practices/plugins/alibaba-java-coding-guidelines',
-              // '/practices/plugins/sonar-lint',
+              '/practices/plugins/sonar-lint',
               // '/practices/plugins/find-bugs',
             ]
           },
