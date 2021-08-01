@@ -20,7 +20,8 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/nprogress',
     [
-      '@vuepress/last-updated', {
+      '@vuepress/last-updated',
+      {
         transformer: (timestamp, lang) => {
           const moment = require('moment')
           moment.locale(lang)
@@ -29,12 +30,14 @@ module.exports = {
       }
     ],
     [
-      '@vuepress/google-analytics', {
+      '@vuepress/google-analytics',
+      {
         'ga': 'G-XZNJC0YWR8'
       }
     ],
     [
-      'vuepress-plugin-code-copy', {
+      'vuepress-plugin-code-copy',
+      {
         align: 'top',
         backgroundTransition: true,
         color: '#E1DAD9',
@@ -42,7 +45,18 @@ module.exports = {
         successText: 'copied!',
         staticIcon: false
       }
-    ]
+    ],
+    [
+      'vuepress-plugin-zooming',
+      {
+        selector: 'img',
+        delay: 1000,
+        options: {
+          bgColor: 'black',
+          zIndex: 10000,
+        },
+      },
+    ],
   ],
   themeConfig: {
     navbar: true,
