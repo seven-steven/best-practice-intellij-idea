@@ -8,6 +8,7 @@ module.exports = {
   host: '0.0.0.0',
   port: 8080,
   dest: './dist',
+  author: 'seven',
   patterns: ['**/*.md', '**/*.vue'],
   markdown: {
     lineNumbers: true,
@@ -58,9 +59,27 @@ module.exports = {
       },
     ],
     [
-      'sitemap', {
+      'vuepress-plugin-sitemap',
+      {
         hostname: 'https://idea.diqigan.cn',
         outFile: 'sitemap.xml',
+      }
+    ],
+    [
+      'vuepress-plugin-seo',
+      {
+        siteTitle: (_, $site) => $site.title,
+        title: $page => $page.title,
+        description: $page => $page.frontmatter.description,
+        author: (_, $site) => $site.themeConfig.author,
+        tags: $page => $page.frontmatter.tags,
+        twitterCard: _ => 'summary_large_image',
+        type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
+        url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+        image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain && !$page.frontmatter.image.startsWith('http') || '') + $page.frontmatter.image),
+        publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+        modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+        cusotmMeta: () => {}
       }
     ]
   ],
