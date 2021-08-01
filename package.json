@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "dev": "vuepress dev --no-cache",
+    "build": "vuepress build --no-cache"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.8.2",
@@ -15,6 +15,7 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }
