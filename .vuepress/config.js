@@ -94,7 +94,8 @@ module.exports = {
       { text: '配置', link: '/practices/settings/' },
       { text: '能力', link: '/practices/capacity/' },
       { text: '插件', link: '/practices/plugins/' },
-      { text: 'Blog', link: 'https://blog.diqigan.cn', rel: null }
+      { text: 'Blog', link: 'https://blog.diqigan.cn', rel: null },
+      { text: '导航', link: 'https://bookmark.diqigan.cn', rel: null }
     ],
     sidebar: [
       {
