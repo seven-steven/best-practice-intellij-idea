@@ -21,6 +21,7 @@ module.exports = {
     '@vuepress/back-to-top',
     '@vuepress/nprogress',
     'vuepress-plugin-pangu',
+    'vuepress-plugin-reading-progress',
     [
       '@vuepress/last-updated',
       {
