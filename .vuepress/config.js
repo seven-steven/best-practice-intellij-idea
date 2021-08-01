@@ -22,6 +22,7 @@ module.exports = {
     '@vuepress/nprogress',
     'vuepress-plugin-pangu',
     'vuepress-plugin-reading-progress',
+    'vuepress-plugin-img-lazy',
     [
       '@vuepress/last-updated',
       {
