@@ -57,6 +57,12 @@ module.exports = {
         },
       },
     ],
+    [
+      'sitemap', {
+        hostname: 'https://idea.diqigan.cn',
+        outFile: 'sitemap.xml',
+      }
+    ]
   ],
   themeConfig: {
     navbar: true,

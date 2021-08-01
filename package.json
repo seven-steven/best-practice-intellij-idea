@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev --no-cache",
-    "build": "vuepress build --no-cache"
+    "build": "vuepress build --no-cache -d dist",
+    "postbuild": "vuepress-sitemap -H https://idea.diqigan.cn -d dist"
   },
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.8.2",
@@ -15,8 +16,10 @@
     "vuepress": "^1.8.2"
   },
   "dependencies": {
+    "esm": "^3.2.25",
     "moment": "^2.29.1",
     "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-plugin-zooming": "^1.1.8"
   }
 }
