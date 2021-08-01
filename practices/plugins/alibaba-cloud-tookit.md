@@ -5,7 +5,7 @@ Alibaba Cloud Toolkit 插件允许我们通过一系列的配置来制定代码�
 - 管理服务器，快速上传文件、执行命令、连接服务器、查看服务器文件等；
 - 定制一键发布策略，完成一键发布功能；
 
-*插件植入了很多阿里云自己的h产品，介意的话可以卸载这款a插件。*
+*插件植入了很多阿里云自己的产品，介意的话可以卸载这款插件。*
 
 ![idea-plugin-alibaba-cloud-toolkit-host-list](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731215600221.png)
 
