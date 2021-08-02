@@ -54,7 +54,7 @@ module.exports = {
     [
       'vuepress-plugin-zooming',
       {
-        selector: 'img:not(table img)',
+        selector: 'img:not(table img, header.navbar img)',
         delay: 1000,
         options: {
           bgColor: 'black',
