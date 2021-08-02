@@ -1,9 +1,10 @@
 module.exports = {
-  title: 'Intellij IDEA 最佳实践',
-  description: 'Intellij IDEA 最佳实践, best-practice-intellij-idea, Intellij IDEA 教程, Intellij IDEA 优化',
+  title: 'IntelliJ IDEA 最佳实践',
+  description: 'IntelliJ IDEA 最佳实践, best-practice-intellij-idea, IntelliJ IDEA 教程, IntelliJ IDEA 优化',
   head: [
     ['link', { rel: 'icon', href: '/assets/images/favicon.png' }],
-    ['meta', { name: 'yandex-verification', content: '6643f1fba5343856' }]
+    ['meta', { name: 'yandex-verification', content: '6643f1fba5343856' }],
+    ['meta', { name: 'google-site-verification', content: '4QvtJsh1S-YmycXtP0dOubOpFj98E6b6h8yyzPznrk4' }]
   ],
   host: '0.0.0.0',
   port: 8080,

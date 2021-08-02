@@ -2,8 +2,6 @@
 
 这里可以配置 IDEA 的外观和行为。
 
-
-
 ## Appearance
 
 Appearance 界面可以对 IDEA 的主题、字体、和字号等设置项进行配置。
