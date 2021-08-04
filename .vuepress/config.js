@@ -122,6 +122,7 @@ module.exports = {
           // '/practices/capacity/debug',
           '/practices/capacity/http-request',
           // '/practices/capacity/data-grip'
+          '/practices/capacity/package-search',
         ]
       },
       {

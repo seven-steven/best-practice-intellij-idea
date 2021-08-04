@@ -13,4 +13,4 @@
 - "Rearrange code" 表示重新整理代码；
 - "Run code cleanup" 表示优化代码；
 
-![image-20210805045013549](https://rmt.ladydaily.com/fetch/seven/storage/image-20210805045013549.png)
+![idea-settings-tools-actions-on-save](https://rmt.ladydaily.com/fetch/seven/storage/image-20210805045013549.png)
