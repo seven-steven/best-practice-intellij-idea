@@ -100,28 +100,14 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: '基础配置',
-        path: '/practices/settings/',
-        sidebarDepth: 1,
-        collapsable: false,
-        children: [
-          '/practices/settings/appearance-and-behavior',
-          '/practices/settings/keymap',
-          '/practices/settings/editor',
-          '/practices/settings/plugins',
-          '/practices/settings/version-control',
-          '/practices/settings/build-execution-deployment',
-          '/practices/settings/tools'
-        ]
-      },
-      {
         title: '原生能力',
         path: '/practices/capacity/',
+        sidebarDepth: 0,
         collapsable: false,
         children: [
           // '/practices/capacity/debug',
           '/practices/capacity/http-request',
-          // '/practices/capacity/data-grip'
+          '/practices/capacity/data-grip',
           '/practices/capacity/package-search',
         ]
       },
@@ -153,6 +139,21 @@ module.exports = {
           '/practices/plugins/git-commit-template',
 
           '/practices/plugins/idea-mind-map',
+        ]
+      },
+      {
+        title: '基础配置',
+        path: '/practices/settings/',
+        sidebarDepth: 1,
+        collapsable: false,
+        children: [
+          '/practices/settings/appearance-and-behavior',
+          '/practices/settings/keymap',
+          '/practices/settings/editor',
+          '/practices/settings/plugins',
+          '/practices/settings/version-control',
+          '/practices/settings/build-execution-deployment',
+          '/practices/settings/tools'
         ]
       }
     ],
