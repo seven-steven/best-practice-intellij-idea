@@ -49,6 +49,12 @@ module.exports = {
       }
     ],
     [
+      '@vuepress/plugin-pwa',
+      {
+        serviceWorker: true,
+        updatePopup: true
+      }],
+    [
       'vuepress-plugin-code-copy',
       {
         align: 'top',
@@ -93,10 +99,6 @@ module.exports = {
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
         cusotmMeta: () => { }
       },
-      ['@vuepress/pwa', {
-        serviceWorker: true,
-        updatePopup: true
-      }],
     ]
   ],
   themeConfig: {

@@ -2,14 +2,13 @@
   "name": "Best Practice IDEA",
   "short_name": "Best Practice IDEA",
   "description": "Intellij IDEA 最佳实践",
-  "start_url": ".",
-  "scope": ".",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
+  "theme_color": "#3eaf7c",
   "icons": [{
     "src": "../images/idea-512x512.svg",
     "sizes": "512x512",
     "type": "image/svg+xml"
-  }],
-  "related_applications": []
+  }]
 }
