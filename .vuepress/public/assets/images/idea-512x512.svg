@@ -1,0 +1,49 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+	<title>idea-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="5209.309" y1="5218.041" x2="1128.588" y2="3338.454">
+			<stop offset="0" stop-color="#2773e7"  />
+			<stop offset="100" stop-color="#fc801d"  />
+		</linearGradient>
+		<linearGradient id="grd2" gradientUnits="userSpaceOnUse"  x1="9614.509" y1="29061.428" x2="4042.392" y2="9024.012">
+			<stop offset="0" stop-color="#2773e7"  />
+			<stop offset="100" stop-color="#9039d0"  />
+		</linearGradient>
+		<linearGradient id="grd3" gradientUnits="userSpaceOnUse"  x1="3872.24" y1="8" x2="3872.24" y2="9204.728">
+			<stop offset="0" stop-color="#2773e7"  />
+			<stop offset="100" stop-color="#9039d0"  />
+		</linearGradient>
+		<linearGradient id="grd4" gradientUnits="userSpaceOnUse"  x1="10732.785" y1="9506.381" x2="5626.674" y2="33289.467">
+			<stop offset="0" stop-color="#fe2857"  />
+			<stop offset="100" stop-color="#9039d0"  />
+		</linearGradient>
+		<linearGradient id="grd5" gradientUnits="userSpaceOnUse"  x1="6496" y1="-1391.104" x2="6496" y2="7851.392">
+			<stop offset="0" stop-color="#a6a5a5"  />
+			<stop offset="0" stop-color="#989898" stop-opacity="0.57" />
+			<stop offset="100" stop-color="#000000"  />
+		</linearGradient>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #f97a12 } 
+		.shp1 { fill: url(#grd1) } 
+		.shp2 { fill: url(#grd2) } 
+		.shp3 { fill: url(#grd3) } 
+		.shp4 { fill: url(#grd4) } 
+		.shp5 { fill: #000000 } 
+		.shp6 { fill: url(#grd5) } 
+		.shp7 { fill: #ffffff } 
+	</style>
+	<g id="Layer">
+		<path id="idea-a" class="shp0" d="M5.61 301.6L129.61 399.2L244.01 256L67.21 187.19L5.61 301.6Z" />
+		<path id="idea-a" class="shp1" d="M5.61 301.6L129.61 399.2L244.01 256L67.21 187.19L5.61 301.6Z" />
+		<path id="Layer" class="shp2" d="M284.81 89.6L360.01 256.01L187.21 435.2L305.61 511.99L502.41 432.79L512.01 136.81L352.81 8L284.81 89.6Z" />
+		<path id="Layer" class="shp3" d="M272 104L356 320.79L512.01 136.81L352.81 8L272 104Z" />
+		<path id="Layer" class="shp4" d="M74.41 0L0 202.4L116.8 241.6L74.41 384L41.61 499.2L248 432L392.81 200L234.41 19.19L74.41 0Z" />
+		<path id="idea-f" class="shp5" d="M96 416L416 416L416 96L96 96L96 416Z" />
+		<path id="idea-f" class="shp6" d="M96 416L416 416L416 96L96 96L96 416Z" />
+		<path id="Layer" class="shp7" d="M128 376L248 376L248 356L128 356L128 376Z" />
+		<path id="Layer" fill-rule="evenodd" class="shp7" d="M208.72 253.93L228.04 232.43C236 241.19 243.77 246.37 253.53 246.37C265.07 246.37 274.37 239.4 274.37 223.27L274.37 136L304 136L304 224.67C304 241.19 299.08 253.53 290.71 261.9C282.15 270.45 269.53 274.84 254.4 274.84C232.69 274.84 218.27 265.28 208.72 253.93Z" />
+		<path id="Layer" class="shp7" d="M192 160.58L192 136L128 136L128 160.58L145.95 160.58L145.95 246.6L128 246.6L128 272L192 272L192 246.6L174.05 246.6L174.05 160.58L192 160.58Z" />
+	</g>
+</svg>

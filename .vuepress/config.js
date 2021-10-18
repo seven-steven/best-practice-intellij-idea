@@ -4,7 +4,15 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/assets/images/favicon.png' }],
     ['meta', { name: 'yandex-verification', content: '6643f1fba5343856' }],
-    ['meta', { name: 'google-site-verification', content: '4QvtJsh1S-YmycXtP0dOubOpFj98E6b6h8yyzPznrk4' }]
+    ['meta', { name: 'google-site-verification', content: '4QvtJsh1S-YmycXtP0dOubOpFj98E6b6h8yyzPznrk4' }],
+    ['link', { rel: 'manifest', href: '/assets/pwa/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: '/assets/images/favicon.png' }],
+    ['link', { rel: 'mask-icon', href: '/assets/images/favicon.png', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/assets/images/favicon.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   host: '0.0.0.0',
   port: 8080,
@@ -84,7 +92,11 @@ module.exports = {
         publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
         modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
         cusotmMeta: () => { }
-      }
+      },
+      ['@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: true
+      }],
     ]
   ],
   themeConfig: {
