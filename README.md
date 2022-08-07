@@ -16,7 +16,9 @@ features:
 footer: MIT Licensed | Copyright © 2021-present Seven-Steven
 ---
 ---
+
 ## 简介
+
 这是我个人在 IDEA 使用过程中的经验总结，内容涵盖了对[基础配置](/practices/settings/)的打磨、[原生能力](/practices/capacity/)的发掘以及[精选插件](/practices/plugins/)推荐，一定会对你有所帮助。
 
 一个人的能力始终是有限的，文章内容可能会缺漏和错误。

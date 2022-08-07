@@ -114,6 +114,15 @@ module.exports = {
     ],
     sidebar: [
       {
+        title: '授权',
+        // path: '/practices/license/',
+        sidebarDepth: 0,
+        collapsable: false,
+        children: [
+          '/practices/license/open-source-license',
+        ],
+      },
+      {
         title: '原生能力',
         path: '/practices/capacity/',
         sidebarDepth: 0,
