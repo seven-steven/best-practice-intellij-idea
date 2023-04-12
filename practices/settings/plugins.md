@@ -3,7 +3,9 @@
 这里可以对 IDEA 的插件进行安装和管理。
 
 ## Install
+
 ### 在线安装
+
 - 进入 IDEA 设置页面；
 - 点击 **Plugins** 进入插件设置面板；
 - 选择 “**Marketplace**”；
@@ -15,6 +17,7 @@
 ![idea-settings-plugins-install-online](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731032713278.png)
 
 ### 离线安装
+
 - 首先在 [JetBrains 插件市场](https://plugins.jetbrains.com/) 搜索并下载自己想要的插件；
 - 打开 IDEA，进入 **插件设置** 页面；
 - 点击 “Installed” 选项卡右侧的 “**齿轮图标**”，然后选择 "**Install Plugins from Disk...**";
@@ -24,6 +27,7 @@
 ![idea-settings-plugins-install-from-disk](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731033910333.png)
 
 ## UnInstall
+
 - 进入 IDEA 设置页面；
 - 点击 **Plugins** 进入插件设置面板；
 - 选择 “**Installed**” 进入已安装插件列表页；

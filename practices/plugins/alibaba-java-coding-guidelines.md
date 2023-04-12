@@ -1,4 +1,4 @@
-# [Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines) 
+# [Alibaba Java Coding Guidelines](https://plugins.jetbrains.com/plugin/10046-alibaba-java-coding-guidelines)
 
 阿里巴巴代码规约插件，可以帮助我们养成良好的**代码规范**和**编程风格**。
 
@@ -9,4 +9,5 @@
 ![idea-plugin-alibaba-java-coding-guidelines](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731135811259.png)
 
 ## 相关资料
+
 - [alibaba/p3c](https://github.com/alibaba/p3c)

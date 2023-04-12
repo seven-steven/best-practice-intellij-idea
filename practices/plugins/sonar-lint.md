@@ -1,6 +1,7 @@
 # [SonarLint](https://plugins.jetbrains.com/plugin/7973-sonarlint)
 
 SonarLint 是一款**代码质量**检查插件，主要功能包括：
+
 - 帮助我们发现和修复 bug；
 - 检查代码坏味道，并提供修复建议。
 

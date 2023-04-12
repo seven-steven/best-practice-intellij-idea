@@ -5,5 +5,6 @@
 插件的安装和卸载请参考 >>> [**Plugins**](/practices/settings/plugins.html) <<<
 
 ## 相关资料
-- [JetBrains 插件市场](https://plugins.jetbrains.com/) 
+
+- [JetBrains 插件市场](https://plugins.jetbrains.com/)
   这里有 JetBrains 的所有插件。

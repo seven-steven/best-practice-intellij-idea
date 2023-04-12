@@ -1,6 +1,7 @@
 # [DataGrip](https://www.jetbrains.com/datagrip/)
 
 DataGrip 是 IDEA 内置的一款数据库连接工具，具有以下功能：
+
 - 支持 20 多种主流数据库的连接；
 - 支持对数据表以及记录值进行增删查改操作；
 - 支持直接执行 SQL，同时具有 SQL 提示功能；
@@ -12,18 +13,21 @@ DataGrip 是 IDEA 内置的一款数据库连接工具，具有以下功能：
 - 支持数据库逆向出数据模型；
 
 ## 打开 Database 面板
+
 依次点击 "View" -> "Tool Windows" -> "Database"，页面右侧会出现 "Database" 面板。
 
 ![idea-capacity-data-grip-database-panel](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806012031084.png)
 
 ## 添加数据源
+
 这里以 MariaDB 为例。
 
-依次点击 Database 面板上的 `+` -> "Data Source" -> "MariaDB": 
+依次点击 Database 面板上的 `+` -> "Data Source" -> "MariaDB":
 
 ![idea-capacity-data-grip-database-add-mariadb](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806013512684.png)
 
 会弹出一个名为 "Data Sources and Drivers" 的信息录入面板并自动新增一个 MariaDB 的连接配置，填写以下信息：
+
 - Name: 数据库连接名，用于给我们自己区分不同的数据库连接；
 - Comment: 数据库连接注释，用于给我们自己区分不同的数据库连接（非必填）；
 - Host: 数据库所在主机；
