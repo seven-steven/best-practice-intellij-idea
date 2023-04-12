@@ -140,6 +140,8 @@ module.exports = {
         collapsable: false,
         sidebarDepth: 0,
         children: [
+          '/practices/plugins/github-copilot',
+
           '/practices/plugins/lombok',
 
           '/practices/plugins/sonar-lint',
