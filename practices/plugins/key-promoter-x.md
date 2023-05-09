@@ -4,4 +4,4 @@ Key Promoter X 是一款快捷键提示插件，如果你进行了**可以使用
 
 *如果你觉得某个提示对你造成了打扰，也可以单独禁用指定快捷键的提示。*
 
-![idea-plugin-key-promoter-x](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731164840213.png)
+![idea-plugin-key-promoter-x](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/3d480ce22284805b7773442122282698.png)

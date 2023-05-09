@@ -16,7 +16,7 @@ DataGrip 是 IDEA 内置的一款数据库连接工具，具有以下功能：
 
 依次点击 "View" -> "Tool Windows" -> "Database"，页面右侧会出现 "Database" 面板。
 
-![idea-capacity-data-grip-database-panel](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806012031084.png)
+![idea-capacity-data-grip-database-panel](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/cd89cafb8413a1a17ff1a3016b276fdd.png)
 
 ## 添加数据源
 
@@ -24,7 +24,7 @@ DataGrip 是 IDEA 内置的一款数据库连接工具，具有以下功能：
 
 依次点击 Database 面板上的 `+` -> "Data Source" -> "MariaDB":
 
-![idea-capacity-data-grip-database-add-mariadb](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806013512684.png)
+![idea-capacity-data-grip-database-add-mariadb](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/3e6fd5065dcb300b25dcdb98afe62f84.png)
 
 会弹出一个名为 "Data Sources and Drivers" 的信息录入面板并自动新增一个 MariaDB 的连接配置，填写以下信息：
 
@@ -36,16 +36,16 @@ DataGrip 是 IDEA 内置的一款数据库连接工具，具有以下功能：
 - Password: 数据库密码；
 - Database: 目标数据库（非必填，留空时可以在 Database 面板的对应连接中手动选择数据库）；
 
-![idea-capacity-data-grip-data-sources-and-drivers-new-mariadb-connection](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806014845298.png)
+![idea-capacity-data-grip-data-sources-and-drivers-new-mariadb-connection](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/fed6735f4ea29a6e4efeba0bc5086468.png)
 
 点击确认，Database 面板就会显示我们刚才添加的数据库连接。展开数据库连接，可以看到数据表信息：
 
-![idea-capacity-data-grip-database-connection](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806021827403.png)
+![idea-capacity-data-grip-database-connection](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/5b5ccfd17df5258e21f461f2f5db62d8.png)
 
 双击数据表，编辑区域会以表格形式罗列出对应数据表中的数据：
 我们可以在页面上方的 "WHERE" 和 "ORDER BY" 输入框筛选和排序数据，只需要在输入框中填写对应的 SQL 语句即可；
 也可以直接编辑表格内容或者增删数据，改动数据库内容之后，需要点击提交按钮或者通过快捷键 `ctrl` + `enter` 提交变动到数据库；
 
-![idea-capacity-data-grip-database-connection-table-data](https://rmt.ladydaily.com/fetch/seven/storage/image-20210806024651350.png)
+![idea-capacity-data-grip-database-connection-table-data](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/6da653596c9bbff7ad7e6ba18b654b36.png)
 
 <!-- ### 进阶配置 -->

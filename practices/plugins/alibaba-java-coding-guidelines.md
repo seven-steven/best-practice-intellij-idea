@@ -6,7 +6,7 @@
 
 *Alibaba Java Coding Guidelines 更侧重代码规范检查。*
 
-![idea-plugin-alibaba-java-coding-guidelines](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731135811259.png)
+![idea-plugin-alibaba-java-coding-guidelines](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/260cb111538893c427a160130c1055d5.png)
 
 ## 相关资料
 

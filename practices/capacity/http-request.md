@@ -44,11 +44,11 @@ Accept: application/json
 
 如果你还是不清楚如何编写 HTTP 请求，可以点击编辑器右上角的 “Examples” 来查看 IDEA 官方示例：
 
-![idea-capacity-http-request-example-get](https://rmt.ladydaily.com/fetch/seven/storage/image-20210801052227945.png)
+![idea-capacity-http-request-example-get](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/c06ef3cecd5bb6424baa526af604b4ae.png)
 
 编写完请求规则之后，只需要点击执行按钮，即可在控制台看到请求结果。
 
-![idea-capacity-http-request-run](https://rmt.ladydaily.com/fetch/seven/storage/image-20210801054803465.png)
+![idea-capacity-http-request-run](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/241981341b50c4dfd22e016d7782ad7a.png)
 
 ## curl 转换
 
@@ -59,14 +59,14 @@ curl 转换是我非常喜欢的一个功能，简直就是 debug 神器。
 我在 IDEA 的 HTTP Request 中再把 curl 命令转换为 HTTP 请求，这样可以 **完全还原** bug 现场，对 bug 的排查工作有着莫大的帮助。
 
 复制浏览器请求的 curl 命令：
-![chrome-network-request-copy-as-curl](https://rmt.ladydaily.com/fetch/seven/storage/image-20210801055804720.png)
+![chrome-network-request-copy-as-curl](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/1198fbc00ca06a553576b2621c4c99a4.png)
 
 把 curl 指命令转换为 HTTP Request:
 
 - 点击 `.http` 文件编辑器右上角的 “Convert...”  按钮；
 - 选择 “Convert Curl to HTTP Request”;
-  ![idea-capacity-http-request-convert-curl-to-http-request](https://rmt.ladydaily.com/fetch/seven/storage/image-20210801060020670.png)
+  ![idea-capacity-http-request-convert-curl-to-http-request](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/f617d3e809d1da602b6c8b0d8d9bfd4e.png)
 - IDEA 会弹出一个文本框并自动粘贴剪贴板中的 curl 命令，我们也可以自行粘贴 curl 命令；
-  ![idea-capacity-http-request-convert-curl-to-http-request-paste-curl](https://rmt.ladydaily.com/fetch/seven/storage/image-20210801060233526.png)
+  ![idea-capacity-http-request-convert-curl-to-http-request-paste-curl](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/7d75c5c2adf1a31956da56019d9e4283.png)
 - 确认 curl 命令无误之后，点击 “Convert” 即可生成 HTTP Request 请求；
-  ![idea-capacity-http-request-convert-curl-to-http-request-result](https://rmt.ladydaily.com/fetch/seven/storage/image-20210801060403380.png)
+  ![idea-capacity-http-request-convert-curl-to-http-request-result](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/81f396b230e279bc18e52eedac2154b4.png)

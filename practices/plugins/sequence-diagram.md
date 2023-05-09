@@ -7,7 +7,7 @@ SequenceDiagram 是一款代码时序图插件，可以帮助大家更好地梳�
 - 导出时序图；
 - 导出 PlantUML 文件；
 
-![idea-plugin-sequence-diagram](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731161039860.png)
+![idea-plugin-sequence-diagram](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/1095b1a3837397b314033455af7eda22.png)
 
 ## 相关资料
 

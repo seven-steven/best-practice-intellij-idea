@@ -5,7 +5,7 @@
 
 ## 申请条件
 
-![jetbrains-open-source-license-condition](https://newbucket.s3.ladydaily.com/2022/b95ab25358c3dc63d7bf62010c2c154e.png)
+![jetbrains-open-source-license-condition](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/b95ab25358c3dc63d7bf62010c2c154e.png)
 
 总结一下：
 
@@ -29,7 +29,7 @@
 
 打开 JetBrains 开源开发许可证申请页面 [Request for Open Source Development License](https://www.jetbrains.com/shop/eform/opensource?product=ALL) 并填写申请资料：
 
-![intellij-open-source-license-request-new-customer](https://rmt.ladydaily.com/fetch/seven/storage/intellij-license-request-open-source-new-customer.png)
+![intellij-open-source-license-request-new-customer](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/10a7f21eb6a5fcf6b2e6986ce6fab054.png)
 
 有以下几点作特别说明：
 
@@ -44,15 +44,15 @@
 
 资料填写完成后提交申请，会跳转到如下页面：
 
-![intellij-open-source-license-request-confirmation](https://rmt.ladydaily.com/fetch/seven/storage/intellij-license-request-confirmation-open-source.png)
+![intellij-open-source-license-request-confirmation](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/d1377d883dc3310c61a5e82a7f597a83.png)
 
 同时，我们会收到一封邮件，告诉我们 JetBrains 已经收到了刚刚提交的申请，团队大概会在一周内审查我们的开源项目。
 
-![intellij-license-request-notice](https://rmt.ladydaily.com/fetch/seven/storage/20220414115633.png)
+![intellij-license-request-notice](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/e46c93f344073475a5bb651264e50e1b.png)
 
 耐心等待几天，JetBrains 会在审查完成之后发送另一封邮件。告知我们申请已通过审批并指引我们领取 License，*或者告知你拒绝审批的原因*。
 
-![intellij-license-request-result](https://dogefs.s3.ladydaily.com/seven/storage/intellij-license-request-result.png)
+![intellij-license-request-result](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/0f9afcd36ea80191bbc623eebc4fd20b.png)
 
 如果审批通过，可以点击邮件中的 "Take me to my license(s)" 链接，将 Licenses 绑定到对应的帐号。
 

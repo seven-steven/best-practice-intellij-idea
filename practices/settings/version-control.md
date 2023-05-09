@@ -10,7 +10,7 @@
 
   在我们提交代码之前，IDEA 会自动帮我们格式化和重新排列代码、优化 import 语句（主要是去除不必要的 import）、分析代码问题、检查 TODO 项，防止我们不小心提交了错误或者不规范的代码。
 
-![idea-settings-version-control-commit](https://rmt.ladydaily.com/fetch/seven/storage/image-20210728005405247.png)
+![idea-settings-version-control-commit](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/286c765dc5258a40abf6938f6c453022.png)
 
 ## confirmation
 
@@ -24,10 +24,10 @@
 
   当空 changelist 变为非活跃状态时，IDEA 会自动帮我们删除对应的 changelist。
 
-![idea-settings-version-control-confirmation](https://rmt.ladydaily.com/fetch/seven/storage/image-20210728005718620.png)
+![idea-settings-version-control-confirmation](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/b28bd5d196de2d53b2e4e3fd88696f12.png)
 
 ## git
 
 git 设置建议勾选 “Auto-update if push of the current branch was rejected”。当我们的 push 操作被 git 仓库拒绝时，IDEA 会自动帮我们更新本地代码。
 
-![idea-settings-version-control-git](https://rmt.ladydaily.com/fetch/seven/storage/image-20210728005855681.png)
+![idea-settings-version-control-git](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/6810bee733b8d65162941dc420ea4eea.png)

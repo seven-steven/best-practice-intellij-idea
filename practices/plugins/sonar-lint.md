@@ -7,4 +7,4 @@ SonarLint 是一款**代码质量**检查插件，主要功能包括：
 
 *SonarLint 更侧重代码质量检查。*
 
-![idea-plugin-sonar-lint-report](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731141242390.png)
+![idea-plugin-sonar-lint-report](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/e15bfa14a1188f9327636cff0a595df0.png)

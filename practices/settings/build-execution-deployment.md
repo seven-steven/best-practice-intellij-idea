@@ -11,4 +11,4 @@ IDEA 的 Maven 配置建议作以下设置：
 
 这样可以使 maven 的行为在 IDEA 和 命令行中保持一致。
 
-![idea-settings-build-execution-deployment-build-tools-maven](https://rmt.ladydaily.com/fetch/seven/storage/image-20210729042200732.png)
+![idea-settings-build-execution-deployment-build-tools-maven](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/5204ff0f9e69716aeaf9d6fc51df32d7.png)

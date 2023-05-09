@@ -14,7 +14,7 @@
 - 点击页面右侧插件详情页中的 “**Install**” 即可安装成功；
 - 安装完成之后，需要重启 IDEA 才能使插件生效。
 
-![idea-settings-plugins-install-online](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731032713278.png)
+![idea-settings-plugins-install-online](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/1c512e856898755e522c6f7bd669d032.png)
 
 ### 离线安装
 
@@ -24,7 +24,7 @@
 - 选择自己刚才下载好的插件，确认安装即可；
 - 安装完成之后，需要重启 IDEA 才能使插件生效。
 
-![idea-settings-plugins-install-from-disk](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731033910333.png)
+![idea-settings-plugins-install-from-disk](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/f8c78582f2fb1e76028c50f99be6f2ce.png)
 
 ## UnInstall
 
@@ -36,4 +36,4 @@
 - 点击页面右侧插件详情页中的 “**齿轮图标**”， 然后选择 “**Uninstall...**” 即可卸载成功；
 - 卸载完成之后，需要重启 IDEA 才能使操作生效。
 
-![idea-settings-plugins-uninstall](https://rmt.ladydaily.com/fetch/seven/storage/image-20210731034819312.png)
+![idea-settings-plugins-uninstall](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/41ae2bf46a63c612b50e2acef2455f21.png)
