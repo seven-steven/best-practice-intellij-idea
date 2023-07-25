@@ -157,6 +157,7 @@ module.exports = {
           '/practices/plugins/translation',
           '/practices/plugins/sequence-diagram',
           '/practices/plugins/code-glance',
+          '/practices/plugins/pojo-to-json.md',
 
           '/practices/plugins/maven-helper',
           '/practices/plugins/mybatisx',
