@@ -29,4 +29,4 @@ footer: MIT Licensed | Copyright © 2021-present Seven-Steven
 
 |个人微信|微信公众号|
 |:-:|:-:|
-|![wechat_personal](https://dogefs.s3.ladydaily.com/seven/storage/wechat_personal.png)|![wechat_subscribe](https://picgo-daily.oss-cn-guangzhou.aliyuncs.com/picgo-daily/2023/e53d69dac842f78667a73a553f90033a.png)|
+|![wechat_personal](.vuepress/public/assets/images/wechat_personal.png)|![wechat_subscribe](.vuepress/public/assets/images/wechat_subscribe.png)|
