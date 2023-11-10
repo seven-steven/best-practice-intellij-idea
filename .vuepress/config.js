@@ -187,7 +187,7 @@ module.exports = {
     displayAllHeaders: true,
     activeHeaderLinks: false,
     lastUpdated: '最近更新',
-    repo: 'Seven-Steven/best-practice-intellij-idea',
+    repo: 'seven-steven/best-practice-intellij-idea',
     repoLabel: '查看源码',
     editLinks: true,
     editLinkText: '帮助我们改善此页面！',
