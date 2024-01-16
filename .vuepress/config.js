@@ -110,7 +110,8 @@ module.exports = {
       { text: '能力', link: '/practices/capacity/' },
       { text: '插件', link: '/practices/plugins/' },
       { text: 'Blog', link: 'https://blog.diqigan.cn', rel: null },
-      { text: '导航', link: 'https://bookmark.diqigan.cn', rel: null }
+      { text: '导航', link: 'https://kanjian.diqigan.cn', rel: null },
+      { text: '开源服务指南', link: 'https://osguider.com', rel: null }
     ],
     sidebar: [
       {

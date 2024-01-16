@@ -15,7 +15,6 @@ features:
     details: 刀枪剑戟，谁能称王
 footer: MIT Licensed | Copyright © 2021-present Seven-Steven
 ---
----
 
 ## 简介
 
